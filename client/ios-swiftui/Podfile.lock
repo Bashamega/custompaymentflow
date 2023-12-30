@@ -1,0 +1,44 @@
+PODS:
+  - Stripe (22.8.4):
+    - Stripe/Stripe3DS2 (= 22.8.4)
+    - StripeApplePay (= 22.8.4)
+    - StripeCore (= 22.8.4)
+    - StripeUICore (= 22.8.4)
+  - Stripe/Stripe3DS2 (22.8.4):
+    - StripeApplePay (= 22.8.4)
+    - StripeCore (= 22.8.4)
+    - StripeUICore (= 22.8.4)
+  - StripeApplePay (22.8.4):
+    - StripeCore (= 22.8.4)
+  - StripeCore (22.8.4)
+  - StripeUICore (22.8.4):
+    - StripeCore (= 22.8.4)
+
+DEPENDENCIES:
+  - Stripe (from `https://github.com/stripe/stripe-ios.git`, branch `master`)
+
+SPEC REPOS:
+  trunk:
+    - StripeApplePay
+    - StripeCore
+    - StripeUICore
+
+EXTERNAL SOURCES:
+  Stripe:
+    :branch: master
+    :git: https://github.com/stripe/stripe-ios.git
+
+CHECKOUT OPTIONS:
+  Stripe:
+    :commit: e242f59ce90914e93c8308e0c3ceba7368575b77
+    :git: https://github.com/stripe/stripe-ios.git
+
+SPEC CHECKSUMS:
+  Stripe: 59f6659e8ea413def19c97c57e23f5ec6ea48cf8
+  StripeApplePay: 6e9aebd3d248464836e9fbdaef6e5fb1817d56a6
+  StripeCore: 193f27552fb98108ebfe0df11651fe5f38948305
+  StripeUICore: 6a5bbea0164d63bd91000f001903e7901859e1a4
+
+PODFILE CHECKSUM: 0f4fddcd7238f926520e47c52c7791b5051c36f8
+
+COCOAPODS: 1.11.3
